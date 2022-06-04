@@ -1,0 +1,6 @@
+da ne trazite gresku: js, linija 205:
+nije 'let divpismeni2=document.querySelector(".section4")' vec 'let divpismeni2=document.querySelector("#section4")'
+
+u css-u, ctrl-f("pismeni")
+js - kod sa pismenog je na kraju
+u html - section3 i section4 su divovi
