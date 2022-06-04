@@ -26,7 +26,7 @@ h1{
 
 div.coverup1{
     width: 100%;
-    height: 60px;
+    height: 140px;
     top: 650px;
     position: absolute;
     background-color: #181818;
@@ -43,7 +43,8 @@ div.banner{
     z-index: 0;
 position: relative;
 width:100%;
-height: 577px;
+height: 660px;
+/*height: 577px;*/
 /*background-color: rgb(37, 47, 53);*/
 background: radial-gradient(ellipse at bottom, #995904 0%,#090a0f 100%);
 background-position: center;
@@ -105,9 +106,10 @@ div.panel{
     position: relative;
     display: flex;
     align-items:  center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 570px;
+    height: 715px;
     /*background-color: rgba(68, 66, 61, 0.8);*/
     background: radial-gradient(ellipse at bottom, #7977751e 0%,#090a0f 100%);
     color: whitesmoke;
@@ -125,14 +127,14 @@ h1.Title{
     align-items: center;
     font-size: 60px;
     margin-top: 70px;
-    color: rgba(245, 245, 245, 0.267);
+    color: rgba(245, 245, 245, 0.096);
     box-shadow: #090a0f;
     text-shadow: #090a0f;
     text-shadow:rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
 }
-div.console{
-    margin-top: 70px;
+div.konzola{
+    margin-top: 120px;
     position: relative;
     flex-direction: column;
     width: 55%;
@@ -143,6 +145,229 @@ div.console{
     background-color: #181818;
     color: whitesmoke;
 }
+/*konzola 2*/
+.consolealigndiv{
+    margin-bottom: 20px;
+}
+div.konzola2{
+    margin-top: 65px;
+    position: relative;
+    flex-direction: column;
+    height: 600px;
+    width: 55%;
+    padding-bottom: 40px;
+    border: 3px;
+    border-style: solid;
+    border-color: #252525;
+    background-color: #181818;
+    color: whitesmoke;
+}
+.Attaboytekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #36692c;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.Useernametekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #59B6DE;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.usernameinput{
+    border: none;
+    outline: none;
+    background-color:#181818;
+    caret-color: #59B6DE;
+    color:#995904;
+    font-size: 16px;
+    padding: 15px;
+    width: 400px;
+    height: 20px;
+}
+
+
+.Passwordtekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #59B6DE;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.passwordinput{
+    border: none;
+    outline: none;
+    background-color:#181818;
+    caret-color: #59B6DE;
+    color:#995904;
+    font-size: 16px;
+    padding: 15px;
+    width: 400px;
+    height: 20px;
+}
+.Nextdugme1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color:#181818;
+    box-shadow: inset 0 0 0 0 #f78401;
+    transition: .8s;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    border-color: #252525;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+}
+.Nextdugme1:hover{
+    box-shadow: inset 0 0 0 25px #f7840169;
+    border-color: #36692c;
+    color:#3ba525
+}
+.Nextdugmediv1{
+    margin-left: 200px;
+}
+.emailtekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #59B6DE;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.emailinput{
+    border: none;
+    outline: none;
+    background-color:#181818;
+    caret-color: #59B6DE;
+    color:#995904;
+    font-size: 16px;
+    padding: 15px;
+    width: 400px;
+    height: 20px;
+}
+.Nextdugme2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color:#181818;
+    box-shadow: inset 0 0 0 0 #f78401;
+    transition: .8s;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    border-color: #252525;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+}
+.Nextdugme2:hover{
+    box-shadow: inset 0 0 0 25px #f7840169;
+    border-color: #36692c;
+    color:#3ba525
+}
+.Nextdugmediv2{
+    margin-left: 200px;
+}
+.verificationcodetekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #59B6DE;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.verificationcodeinput{
+    border: none;
+    outline: none;
+    background-color:#181818;
+    caret-color: #59B6DE;
+    color:#995904;
+    font-size: 16px;
+    padding: 15px;
+    width: 400px;
+    height: 20px;
+}
+.Nextdugme3{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color:#181818;
+    box-shadow: inset 0 0 0 0 #f78401;
+    transition: .8s;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    border-color: #252525;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+}
+.Nextdugme3:hover{
+    box-shadow: inset 0 0 0 25px #f7840169;
+    border-color: #36692c;
+    color:#3ba525
+}
+.Nextdugmediv3{
+    margin-left: 200px;
+}
+.verificationtesttekst{
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: #090a0f;
+    color: #59B6DE;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.verificationtestinput{
+    border: none;
+    outline: none;
+    background-color:#181818;
+    caret-color: #59B6DE;
+    color:#995904;
+    font-size: 16px;
+    padding: 15px;
+    width: 400px;
+    height: 20px;
+}
+.Submitdugme{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    background-color:#181818;
+    box-shadow: inset 0 0 0 0 #f78401;
+    transition: .8s;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    border-color: #252525;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+}
+.Submitdugme:hover{
+    box-shadow: inset 0 0 0 25px #f7840169;
+    border-color: #36692c;
+    color:#3ba525
+}
+.Submitdugme{
+    margin-left: 200px;
+}
+.inputarrowdiv{
+    margin-left: 5px;
+    color: #c20b42;
+}
+/*konzola 2 - end*/
+
+/*konzola 3*/
+
+
+
+/*konzola 3 - end*/
 p.dare{
     font-size: 20px;
 }
@@ -164,22 +389,92 @@ div.dare{
 div.fancytxt{
     width: 55%;
     font-size: 10px;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 /*header*/
-.menu_div{
-    position: absolute;
-    left: 1210px;
-    width: 40px;
+.menu_btn{
+    position: relative;
+    width: 35px;
     height: 40px;
-    margin-left: 50px;
-    background-image: url(img/menu1.png);
+    border: 0px;
+    background-color: #252525;
     background-position: center;
     background-repeat:no-repeat;
     background-size:contain;
+}
+.MenuIcon{
+    font-size: 35px;
+    color: rgb(172, 104, 27);
+    cursor: pointer;
+}
+.dropdown{
+    margin-left: 50px;
+    background-color: #3ba525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.DropdownMenu{
+    right: 0px;
+    top: 60px;
+    background-color:#252525;
+    position: absolute;
+    box-shadow: 10px 10px 15px 0px rgba(rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0), 1);
+    opacity:0;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-10px);
+    pointer-events: none;
+}
+.menu_btn:focus + .DropdownMenu{
+    opacity: 1;
+    transform: translateY(0px);
+    pointer-events: all;
+}
+.DropdownMenudiv1{
+    border: 1px;
+    border: #b1b1b17a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DropdownMenudiv1_1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.DropdownMenudiv1_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DropdownMenudiv2{
+    flex-direction: column;
+    border: 1px;
+    border: #b1b1b17a;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.DropdownMenudiv3{
+    border: 1px;
+    border: #b1b1b17a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .homelink a{
     background-color: rgba(97, 90, 87, 0.3);
@@ -193,12 +488,14 @@ header{
     width: 100%;
     height: 80px;
     position: sticky;
+    margin-top: 0px;
     top: 0px;
 }
 .header_content{
+    background-color:#252525;
     margin-bottom: 0px;
     height: 100%;
-    width: 85%;
+    width: 90%;
     padding: 20px;
     display: flex;
     justify-content:space-between;
@@ -224,7 +521,7 @@ li,a,button{
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 
@@ -265,17 +562,24 @@ img.logo{
     font-size: 22px;
 }
 .sign_up_btn{
-    background-image: url(img/account.png);
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background-color: #181818;
+    background-color: #252525;
+    border: 3px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-style:ridge;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.UserIcon{
+    font-size: 30px;
+    color: rgb(145, 129, 106);
     cursor: pointer;
 }
 .acc_img{
@@ -303,6 +607,24 @@ img.logo{
 /*header end*/
 
 /*page content*/
+
+/*pismeni!!*/
+#section3{
+    background-color: #36692c;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section4{
+    background-color: #252525;
+    width: 100%;
+}
+.licinabutton{
+    background-color: #c20b42;
+}
+
+/*pismeni!! - end*/
 .pagecontent{
     position: relative;
     color: whitesmoke;
@@ -469,7 +791,7 @@ footer{
     border-style: solid;
     height: 40px;
     width: 150px;
-    margin-top: 34px;
+    margin-top: 35.4px;
 }
 .contactus:hover{
     box-shadow: inset 0 0 0 25px #f7840169;
